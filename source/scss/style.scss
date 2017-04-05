@@ -1,0 +1,77 @@
+@import "_variables";
+
+body {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+a {
+  color: $first-color;
+}
+h1 {
+  font-size: $font-base-size * 2.25;
+  color: $third-color;
+}
+h2 {
+  font-size: $font-base-size * 2;
+  color: $fourth-color;
+}
+h3 {
+  font-size: $font-base-size * 1.75;
+  color: $first-color;
+}
+h4 {
+  font-size: $font-base-size * 1.5;
+  color: $second-color;
+}
+h5 {
+  font-size: $font-base-size * 1.25;
+  color: darken($third-color, 25%);
+}
+h6 {
+  font-size: $font-base-size * 1;
+  color: darken($fourth-color, 25%);
+}
+p {
+  font-size: $font-base-size;
+}
+th {
+  color: $third-color;
+}
+figcaption {
+  font-size: $font-base-size * 1.12;
+}
+button {
+  color: $first-color;
+  border-color: $second-color;
+  background-color: lighten($third-color, 50%);
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  border: 2px solid;
+  border-radius: 3px;
+}
+input {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  border: 2px solid;
+  border-radius: 3px;
+  background-color: lighten($fourth-color, 50%);
+  border-color: $second-color;
+}
+img {
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: $second-color;
+}
+table {
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: $second-color;
+}
+textarea {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  border: 2px solid;
+  border-radius: 3px;
+  background-color: lighten($first-color, 25%);
+  border-color: $second-color;
+}
