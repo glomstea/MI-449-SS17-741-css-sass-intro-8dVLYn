@@ -6,6 +6,11 @@ body {
 }
 a {
   color: $first-color;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+    color: $second-color;
+  }
 }
 h1 {
   font-size: $font-base-size * 2.25;
